@@ -1,0 +1,16 @@
+**/node_modules/
+**/dist/
+debug/
+**/target/
+**/pkg/
+**/*.~undo-tree~
+.vscode/
+.DS_Store
+
+
+
+
+
+
+
+
