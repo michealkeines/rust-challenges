@@ -15,6 +15,7 @@ echo "Rust WebAssembly package built successfully."
 # Navigate to the ws_server directory and start the WebSocket server
 echo "Starting WebSocket server..."
 cd ../ws_server
+npm install
 node server.js &
 SERVER_PID=$! # Capture the server process ID so we can terminate it later
 echo "WebSocket server running with PID: $SERVER_PID"
